@@ -4,7 +4,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <div className="relative w-full h-screen bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-center">
-      <div className="absolute inset-0 bg-cover bg-center opacity-30" style={{ backgroundImage: "url('hero.jpg')" }}></div>
+      <div className="absolute inset-0 bg-cover bg-center opacity-30 rounded-md shadow-md" style={{ backgroundImage: "url('hero.jpg')" }}></div>
       
       <div className="relative z-10 text-white">
         <h2 className="text-4xl font-bold mb-4">Remove the background from images for free.</h2>
