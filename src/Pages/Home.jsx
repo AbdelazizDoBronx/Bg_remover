@@ -11,7 +11,6 @@ const Home = () => {
       <Steps/>
       <BeforeAfter/>
       <Testimonials/>
-      <Footer/>
     </div>
   )
 }
