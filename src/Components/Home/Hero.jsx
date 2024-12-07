@@ -14,7 +14,7 @@ const Hero = () => {
         <button className="relative inline-flex mx-auto bg-gradient-to-r from-purple-400 to-purple-600 text-white font-medium tracking-wide py-2 px-8 rounded-lg shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-purple-400">
           <ArrowUpFromLine className='mr-2'/>
           Upload your image
-          <input className="opacity-0 absolute inset-0 cursor-pointer" type="file" />
+          <input className="opacity-0 absolute inset-0 cursor-pointer" accept='image/*' type="file" />
         </button>
       </div>
     </div>
