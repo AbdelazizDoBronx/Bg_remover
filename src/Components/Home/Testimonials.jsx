@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <div className='my-5'>
-        <h2 className='text-2xl text-center mb-5 font-bold'>Customer Testimonials</h2>
+        <h2 className='mb-12 mt-12 sm:mb-20 text-center text-2xl md:text-3xl lg:text-4xl  font-semibold bg-gradient-to-r from-gray-900 to-gray-400 bg-clip-text text-transparent'>Customer Testimonials</h2>
         <div className="reviews text-pretty flex flex-wrap gap-5 justify-center">
             <div className="review p-5  shadow-lg rounded-md flex flex-col gap-4 w-full sm:w-80">
                 <p className='text-neutral-500'>I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.</p>
